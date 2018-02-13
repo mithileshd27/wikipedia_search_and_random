@@ -1,0 +1,85 @@
+body {
+  background-color: #00897B;
+  color: white;
+  font-family: 'Amaranth', sans-serif;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: white;
+  color: #00897B;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #EEEEEE}
+
+.button:active {
+  background-color: #EEEEEE;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.text-center {
+  margin-top: 100px;
+}
+.searchField {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-size: 25px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: #00897B;
+}
+
+input[type=text]:focus {
+    width: 91%;
+}
+
+.glyphicon {
+  font-size: 40px !important;
+  padding: 10px;
+  pointer-events: none;
+  margin-top: 0px;
+}
+#searchIcon {
+  padding-top: 10px;
+}
+
+.row {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.well {
+  color: #263238 !important;
+  border-color: #1DE9B6 !important;
+}
+
+a {
+  color: #00897B;
+}
+
+a:hover {
+  color: #00897B;
+}
+
+h1 {
+  color: #004D40;
+}
+
